@@ -11,6 +11,7 @@ public class Payment {
         return new Payment(id, amount, "succeded");
     }
     public int getId(){ return id; }
+    public void setId(int id){this.id = id;}
     public double getAmount(){ return amount; }
     public String getStatus(){ return status; }
 }
