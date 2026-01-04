@@ -151,7 +151,7 @@ public class CarInventory {
 
     public int customersCount() { return customers.size(); }
 
-    // ---- Sample data ----
+    //  Sample data
     public void createSampleData() {
         addElectricCar("Tesla", "Model 3", 2021, 70.0);
         addGasCar("Toyota", "Corolla", 2019, 35.0);
