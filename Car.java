@@ -35,7 +35,7 @@ public abstract class Car {
         this.isAvailable = isAvailable;
     }
     
-    // Subclasses must implement fee calculation given num of days
+    // Subclasses must implement fee calculation given numbers of days
     public abstract double calculateRentalFee(int numDays);
 
     // numdays must be at least 1 .
