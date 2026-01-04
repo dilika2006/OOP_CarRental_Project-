@@ -29,10 +29,12 @@ class Rental {
     public int getCusId() { return cusId; }
     public void setCusId(int cusId){this.cusId = cusId;}
     public int getDays() { return days; }
+    public void setDays(int days){this.days = days;}
     public double getTotalFee() { return totalFee; }
     public int getPaymentId() { return paymentId; }
     public String getStatus() { return status; }
 }
+
 
 
 
