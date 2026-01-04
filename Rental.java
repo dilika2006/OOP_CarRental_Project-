@@ -23,6 +23,7 @@ class Rental {
         this.status = "cancelled";
     }
     public int getId() { return id; }
+    public void setId(int id){this.id = id;}
     public int getCarId() { return carId; }
     public int getCusId() { return cusId; }
     public int getDays() { return days; }
