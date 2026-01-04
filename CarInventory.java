@@ -161,4 +161,8 @@ public class CarInventory {
     public void setCars(List<Car> cars) {
         this.cars = cars;
     }
+
+    public void setCustomers(List<Customer> customers) {
+        this.customers = customers;
+    }
 }
