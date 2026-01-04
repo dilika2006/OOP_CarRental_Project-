@@ -104,7 +104,7 @@ public class CarInventory {
         }
     }
 
-    // - Printing helpers for CLI -
+    //  Printing helpers for CLI 
     public void printAllCars() {
         if (cars.isEmpty()) { System.out.println("(no cars)"); return; }
         for (Car c : cars) System.out.println(c.summary());
