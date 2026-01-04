@@ -25,6 +25,7 @@ class Rental {
     public int getId() { return id; }
     public void setId(int id){this.id = id;}
     public int getCarId() { return carId; }
+    public void setCarId(int carId){this.carId = carId;}
     public int getCusId() { return cusId; }
     public int getDays() { return days; }
     public double getTotalFee() { return totalFee; }
