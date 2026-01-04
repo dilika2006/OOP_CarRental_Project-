@@ -31,6 +31,7 @@ class Rental {
     public int getDays() { return days; }
     public void setDays(int days){this.days = days;}
     public double getTotalFee() { return totalFee; }
+    public void setTotalFee(double totalFee){this.totalFee = totalFee;}
     public int getPaymentId() { return paymentId; }
     public String getStatus() { return status; }
 }
