@@ -157,4 +157,8 @@ public class CarInventory {
         addGasCar("Toyota", "Corolla", 2019, 35.0);
         addCustomer("Alice Example", 5550101);
     }
+
+    public void setCars(List<Car> cars) {
+        this.cars = cars;
+    }
 }
