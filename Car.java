@@ -38,7 +38,7 @@ public abstract class Car {
     // Subclasses must implement fee calculation given num of days
     public abstract double calculateRentalFee(int numDays);
 
-    // numdays must be at least 1
+    // numdays must be at least 1 .
     public double baseFee(int numDays){
         if(numDays <1) numDays= 1;
         return dailyRate*numDays;
