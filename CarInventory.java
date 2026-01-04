@@ -70,7 +70,7 @@ public class CarInventory {
         car.setIsAvailable(false);
         return r;
     }
-     // returnCar now just marks returned and sets availability if no other active rentals
+     // returnCar now just marks returned and sets availability if no other active rental
      public void returnCar(int rentalId) {
         Rental rent = null;
         for (Rental r : rentals) if (r.getId() == rentalId) { rent = r; break; }
