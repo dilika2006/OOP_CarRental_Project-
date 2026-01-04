@@ -1,0 +1,37 @@
+Unit Testing (JUnit)
+This document describes the unit testing strategy for the OOP Car Rental Project.
+Due to technical and configuration issues, the tests are presented as a test plan instead of executable JUnit code.
+The goal is to demonstrate understanding of unit testing concepts and test case design.
+
+1. Class: Car
+Test Case: baseFeeCalculation()
+* Goal: To ensure that the daily rental rate is calculated correctly based on the car's category.
+* Description: This test checks if the getBaseFee() method returns the expected value for different car types.
+* Expected Result: If a car is instantiated, the method should return the specific premium rate defined in the business rules (e.g., $100/day).
+
+2.1 AddElectricCar
+Method tested: addElectricCar()
+
+Test cases:
+	•	Add a new electric car to the inventory.
+	•	Verify that the car count increases.
+	•	Verify that the car is stored correctly.
+
+Expected result:
+The electric car is successfully added to the inventory.
+
+2.2 AddGasCar
+Method tested: addGasCar()
+
+Test cases:
+	•	Add a new gas car to the inventory.
+	•	Verify that the inventory size increases.
+	•	Check that the car type is correct.
+
+Expected result:
+The gas car is successfully added to the inventory.
+2. Class: CarInventory
+Test Case: addCarToInventory()
+* Goal: To verify that a new vehicle is correctly stored in the system's list.
+* Description: We call the addCar(Car car) method and then check if the total count of cars has increased or if the specific VIN (Vehicle Identification Number) exists in the collection.
+* Expected Result: The inventory size should increment by 1, and a getCarByVin() call should return the object we just added.
